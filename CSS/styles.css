@@ -10,6 +10,14 @@
     min-height: 400px;
 }
 
+.row-content-abt {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 50px;
+}
+
+
 .footer {
     background-color: #D1C4E9;
     margin: 0px auto;
