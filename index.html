@@ -45,6 +45,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="image-fluid" alt="logo">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                    <a href="#reserveform" class="btn btn-warning btn-block" role="button">Reserve Table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -65,7 +68,7 @@
                         </h2>
                         
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives,
-                            ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
             </div>
@@ -77,10 +80,18 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm order-sm-last col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
-                    $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">                 
+                        <h2 class="mt-0">
+                            Weekend Grand Buffet
+                            <span class="badge badge-danger">NEW</span>
+                        </h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
+                        six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
+                        $19.99 per person </p>
+                    </div>
+                    <img src="img/buffet.png" class="d-flex ml-3 img-thumbnail align-self-center" alt="Buffet">
+                </div>
             </div>
         </div>
 
@@ -99,6 +110,56 @@
                             experiences.
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-content col-12 col-md-8">
+            <div class="card">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form id="reserveform" action="">
+                        <div class="form-group row">
+                            <label for="numguests" class="col-md-2 col-form-label">Number Of Guests</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests1" value="option1">
+                                <label class="form-check-label" for="numguests1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests2" value="option2">
+                                <label class="form-check-label" for="numguests2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests3" value="option3">
+                                <label class="form-check-label" for="numguests3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests4" value="option4">
+                                <label class="form-check-label" for="numguests4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests5" value="option5">
+                                <label class="form-check-label" for="numguests5">5</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="numguests" id="numguests6" value="option6">
+                                <label class="form-check-label" for="numguests6">6</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="datetime" class="col-md-2 col-form-label">Date and Time</label>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control mb-3" placeholder="Date">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control mb-3" placeholder="Time">
+                            </div>                            
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-3 offset-md-2">
+                                <button type="submit" class="btn btn-primary"><Strong>Reserve</Strong></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
